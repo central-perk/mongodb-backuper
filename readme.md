@@ -5,16 +5,16 @@ mongodb 数据备份
 
 ## Quick Start
 ```
-var mongoStore = require('mongo-store');
+var mongodbBackuper = require('mongodb-backuper');
 
-mongoStore.init({
+mongodbBackuper.init({
 
 	// 备份数据存储父级目录
 	path: dbBackupPath,
 
 	// 数据库连接
 	host: CONFIG_DB.host + ':' + CONFIG_DB.port,
-	
+
 	// 数据库名称
 	name: CONFIG_DB.name,
 
