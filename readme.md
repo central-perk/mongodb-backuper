@@ -21,14 +21,8 @@ mongodbBackuper.init({
 	// 按日期规则命名的目录(选填)
 	dateFormate: 'YYYY.MM.DD',
 
-    // 数据备份根目录(选填)
-	dbBackupPath: '/tmp/backup',
-
 	// 保留几天内的备份目录 (选填)
-	days:3,
-
-	//压缩文件后缀(选填) (选填)
-	tarExt:'.tar.gz'
+	days:3
 });
 
 ```
