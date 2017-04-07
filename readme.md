@@ -1,9 +1,9 @@
-## Description
+## 描述
 
-mongodb 数据备份
+mongodb-backuper用于mongodb数据备份，基于nodejs实现
 
 
-## Quick Start
+## 快速开始
 ```
 var mongodbBackuper = require('mongodb-backuper');
 var config = {
@@ -31,3 +31,6 @@ mongodbBackuper.init({
 });
 
 ```
+
+## 依赖
+通过[mongodump](https://docs.mongodb.com/manual/reference/program/mongodump/)命令行完成数据库备份
