@@ -34,3 +34,6 @@ mongodbBackuper.init({
 
 ## 依赖
 通过[mongodump](https://docs.mongodb.com/manual/reference/program/mongodump/)命令行完成数据库备份
+
+## License
+[GPL-3.0](https://choosealicense.com/licenses/gpl-3.0/)
