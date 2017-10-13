@@ -1,25 +1,25 @@
 {
-  "name": "mongodb-backuper",
-  "version": "1.0.2",
-  "description": "mongodb data backup tool",
-  "dependencies": {
-    "async": "0.9.0",
-    "fs-extra": "0.16.5",
-    "moment": "^2.10.3",
-    "lodash": "2.4.1"
-  },
-  "main": "./lib/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:fancylife/mongodb-backuper.git"
-  },
-  "keywords": [
-    "mongodb",
-    "mongo"
-  ],
-  "author": "Terry Zhang",
-  "license": "MIT"
+    "name": "mongodb-backuper",
+    "version": "1.0.2",
+    "description": "mongodb data backup tool",
+    "dependencies": {
+        "async": "0.9.0",
+        "fs-extra": "0.16.5",
+        "moment": "^2.10.3",
+        "lodash": "2.4.1"
+    },
+    "main": "./lib/index.js",
+    "scripts": {
+        "test": "echo \"everything is ok\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:fancylife/mongodb-backuper.git"
+    },
+    "keywords": [
+        "mongodb",
+        "mongo"
+    ],
+    "author": "Terry Zhang",
+    "license": "MIT"
 }
