@@ -1,6 +1,6 @@
 {
     "name": "mongodb-backuper",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "mongodb data backup tool",
     "dependencies": {
         "async": "0.9.0",
