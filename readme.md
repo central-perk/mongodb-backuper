@@ -1,9 +1,9 @@
-## 描述
+## Introduction
 
 mongodb-backuper is used for mongodb data backup, based on nodejs implementation
 
 
-## 快速开始
+## Quick Start
 ```
 var mongodbBackuper = require('mongodb-backuper');
 var config = {
