@@ -1,6 +1,6 @@
 ## 描述
 
-mongodb-backuper用于mongodb数据备份，基于nodejs实现
+mongodb-backuper is used for mongodb data backup, based on nodejs implementation
 
 
 ## 快速开始
@@ -14,26 +14,26 @@ var config = {
 };
 mongodbBackuper.init({
 
-	// 备份数据存储父级目录
+	// Backup data storage parent directory
 	path: config.path,
 
-	// 数据库连接
+	// Database Connectivity
 	host: config.host + ':' + config.port,
 
-	// 数据库名称
+	// Name database
 	name: config.name,
 
-	// 按日期规则命名的目录(选填)
+	// Directory named according to date rules (optional)
 	dateFormate: 'YYYY.MM.DD',
 
-	// 保留几天内的备份目录 (选填)
+	// Keep the backup directory within a few days (optional)
 	days: 3
 });
 
 ```
 
-## 依赖
-通过[mongodump](https://docs.mongodb.com/manual/reference/program/mongodump/)命令行完成数据库备份
+## Dependency
+use [mongodump](https://docs.mongodb.com/manual/reference/program/mongodump/) Complete database backup from the command line
 
 ## License
 [GPL-3.0](https://choosealicense.com/licenses/gpl-3.0/)
