@@ -1,7 +1,7 @@
 ## Introduction
 [![NPM](https://nodei.co/npm/mongodb-backuper.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/mongodb-backuper/)
 [![NPM](https://nodei.co/npm-dl/mongodb-backuper.png?months=9&height=3)](https://nodei.co/npm/mongodb-backuper/)
-mongodb-backuper is used for mongodb data backup, based on nodejs implementation
+mongodb-backuper is a mongodb data backup tool based on nodejs. It is very simple, easy to use and free to define your backup rules
 
 
 ## Quick Start
