@@ -36,4 +36,4 @@ mongodbBackuper.init({
 use [mongodump](https://docs.mongodb.com/manual/reference/program/mongodump/) Complete database backup from the command line
 
 ## License
-[GPL-3.0](https://choosealicense.com/licenses/gpl-3.0/)
+[MIT](https://choosealicense.com/licenses/mit/)
